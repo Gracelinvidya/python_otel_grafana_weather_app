@@ -1,0 +1,30 @@
+# ── Secrets — NEVER commit ──────────────────────────────────
+.env
+
+# ── Python cache ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Telemetry data snapshots (generated at runtime) ──────────
+# These are local only; Grafana is the source of truth for data.
+telemetry_data/
+
+# ── Editor / OS artefacts ─────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
